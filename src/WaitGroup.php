@@ -14,7 +14,7 @@ class WaitGroup
      */
     public function __construct()
     {
-        $this->chan = new \Swoole\Coroutine\Channel(1);;
+        $this->chan = new \Swoole\Coroutine\Channel(1);
     }
 
     /**
